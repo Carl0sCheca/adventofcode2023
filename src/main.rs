@@ -12,6 +12,8 @@ mod day6;
 mod day6_part2;
 mod day7;
 mod day7_part2;
+mod day8;
+mod day8_part2;
 
 trait Run {
     fn run();
@@ -33,6 +35,8 @@ fn main() {
         day6_part2::Day6Part2::run,
         day7::Day7::run,
         day7_part2::Day7Part2::run,
+        day8::Day8::run,
+        day8_part2::Day8Part2::run,
     ];
 
     days.iter().for_each(|f| f());
