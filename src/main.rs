@@ -14,6 +14,7 @@ mod day7;
 mod day7_part2;
 mod day8;
 mod day8_part2;
+mod day9;
 
 trait Run {
     fn run();
@@ -21,22 +22,23 @@ trait Run {
 
 fn main() {
     let days = [
-        day1::Day1::run,
-        day1_part2::Day1Part2::run,
-        day2::Day2::run,
-        day2_part2::Day2Part2::run,
-        day3::Day3::run,
-        day3_part2::Day3Part2::run,
-        day4::Day4::run,
-        day4_part2::Day4Part2::run,
-        day5::Day5::run,
-        day5_part2::Day5Part2::run,
-        day6::Day6::run,
-        day6_part2::Day6Part2::run,
-        day7::Day7::run,
-        day7_part2::Day7Part2::run,
-        day8::Day8::run,
-        day8_part2::Day8Part2::run,
+        // day1::Day1::run,
+        // day1_part2::Day1Part2::run,
+        // day2::Day2::run,
+        // day2_part2::Day2Part2::run,
+        // day3::Day3::run,
+        // day3_part2::Day3Part2::run,
+        // day4::Day4::run,
+        // day4_part2::Day4Part2::run,
+        // day5::Day5::run,
+        // day5_part2::Day5Part2::run,
+        // day6::Day6::run,
+        // day6_part2::Day6Part2::run,
+        // day7::Day7::run,
+        // day7_part2::Day7Part2::run,
+        // day8::Day8::run,
+        // day8_part2::Day8Part2::run,
+        day9::Day9::run,
     ];
 
     days.iter().for_each(|f| f());
